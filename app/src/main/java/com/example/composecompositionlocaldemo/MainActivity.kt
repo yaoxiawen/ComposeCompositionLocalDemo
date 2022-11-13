@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.composecompositionlocaldemo.samples.CompositionLocalSample
 import com.example.composecompositionlocaldemo.samples.TextSample
 import com.example.composecompositionlocaldemo.ui.theme.ComposeCompositionLocalDemoTheme
 
@@ -18,7 +19,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComposeCompositionLocalDemoTheme {
-                TextSample()
+                CompositionLocalSample()
             }
         }
     }
@@ -28,6 +29,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun DefaultPreview() {
     ComposeCompositionLocalDemoTheme {
-        TextSample()
+        CompositionLocalSample()
     }
 }
