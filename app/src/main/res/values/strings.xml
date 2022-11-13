@@ -1,3 +1,7 @@
 <resources>
+    <plurals name="fruit_title">
+        <item quantity="one">fruit</item>
+        <item quantity="other">fruits</item>
+    </plurals>
     <string name="app_name">ComposeCompositionLocalDemo</string>
 </resources>
